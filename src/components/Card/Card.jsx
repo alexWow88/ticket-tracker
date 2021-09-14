@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./Card.scss";
 import Counter from "../Counter/Counter"
 
 const Card = (props) => {
+
 
   const employeeArr = props.dataArray;
 
@@ -10,7 +11,7 @@ const Card = (props) => {
     <div className="employee-card">
       <h3>{employee.name}</h3>
       <h3>{employee.role}</h3>
-      <Counter/>
+      <Counter />
     </div>
   ))
 
