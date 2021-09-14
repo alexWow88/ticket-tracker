@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Card.scss";
+import Counter from "../Counter/Counter"
 
 const Card = (props) => {
 
@@ -9,6 +10,7 @@ const Card = (props) => {
     <div className="employee-card">
       <h3>{employee.name}</h3>
       <h3>{employee.role}</h3>
+      <Counter/>
     </div>
   ))
 
