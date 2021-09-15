@@ -9,7 +9,7 @@ const Card = (props) => {
 
   const employeeCards = employeeArr.map(employee => (
     <div className="employee-card">
-      <h3>{employee.name}</h3>
+      <h2>{employee.name}</h2>
       <h3>{employee.role}</h3>
       <Counter />
     </div>
